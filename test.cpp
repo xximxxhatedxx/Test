@@ -4,5 +4,10 @@
 using namespace std;
 
 void main() {
-	cout << "Hello world";
+	int a;
+	cin >> a;
+	if (a == 0)
+		cout << "Hello world";
+	else
+		cout << "Exit";
 }
